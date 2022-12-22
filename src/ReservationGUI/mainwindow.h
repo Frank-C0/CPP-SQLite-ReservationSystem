@@ -25,8 +25,6 @@ private slots:
 
     void on_eliminar_Button_clicked();
 
-    void on_tableWidget_cellActivated(int row, int column);
-
     void on_tableWidget_cellClicked(int row, int column);
 
     void on_search_especialidad_edit_textChanged(const QString &arg1);
