@@ -20,17 +20,11 @@ public:
 private slots:
 
     void on_create_reserva_button_clicked();
-
     bool printAllReservas(std::list<Reserva> lista_reservas);
-
     void on_eliminar_Button_clicked();
-
     void on_tableWidget_cellClicked(int row, int column);
-
     void on_search_especialidad_edit_textChanged(const QString &arg1);
-
     void on_search_fecha_edit_textChanged(const QString &arg1);
-
     void on_seach_dni_edit_textChanged(const QString &arg1);
 
 private:
